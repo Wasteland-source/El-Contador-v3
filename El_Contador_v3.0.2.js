@@ -27,7 +27,7 @@ client.on('message', function(msg) {
       msg.channel.send(`You fucking animal, you absolute fuck, you think i\'m some kinda play thing for you to ping? Were you expecting pong? You stupid little cream filled bitch. Don\'t ever talk to me again. This ping took ${client.ping} milliseconds`)
       console.log(`${msg.author.tag} has sent a ping and recieved a pong`);
     } catch (error) {
-      msg.channel.send(`I'm sorry ${msg.author.username}, I can't do that ${msg.author.username}. Beep boop`)
+      msg.channel.send(`beep boop something went wrong with this command beep boop`)
       console.log(`${msg.author.tag} broke my sweet wee ping pong`);
     }
   }
@@ -38,7 +38,7 @@ client.on('message', function(msg) {
       msg.channel.send(calculator.calc(msg.content))
       console.log(`${msg.author.tag} made a calculation`);
     } catch (error) {
-      msg.channel.send(`I'm sorry ${msg.author.username}, I can't do that ${msg.author.username}. Beep boop`)
+      msg.channel.send(`beep boop something went wrong with this command beep boop`)
       console.log(`${msg.author.tag} broke the calculator`);
     }
   }
@@ -50,7 +50,7 @@ client.on('message', function(msg) {
       console.log(`${msg.author.tag} played the number game`);
       console.log(`${msg.content}${numberGame.randomNumber}`)
     } catch (error) {
-      msg.channel.send(`I'm sorry ${msg.author.username}, I can't do that ${msg.author.username}. Beep boop`)
+      msg.channel.send(`beep boop something went wrong with this command beep boop`)
       console.log(`${msg.author.tag} broke the number game`)
       console.log(`${msg.content}${numberGame.randomNumber}`)
     }
@@ -62,7 +62,7 @@ client.on('message', function(msg) {
       msg.channel.send(msg.author.avatarURL)
       console.log(`${msg.author.tag} took a peek at their own avatar`)
     } catch (error) {
-      msg.channel.send(`I'm sorry ${msg.author.username}, I can't do that ${msg.author.username}. Beep boop`)
+      msg.channel.send(`beep boop something went wrong with this command beep boop`)
       console.log(`${msg.author.tag} encountered an error with calling their avatar`)
     }
   }
